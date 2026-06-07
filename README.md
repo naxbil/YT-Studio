@@ -2,11 +2,11 @@
 
 **A desktop app to inspect YouTube channel analytics and download video, playlists, or entire channels — built with PySide6 + yt-dlp.**
 
-[![Download](https://img.shields.io/badge/Download-Windows%20(.exe)-E8722C?style=for-the-badge)](https://github.com/YOURUSERNAME/yt-studio/releases/latest/download/YT-Studio-Setup.exe)
+[![Download](https://img.shields.io/badge/Download-Windows%20(.exe)-E8722C?style=for-the-badge)](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.exe)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-1f1f1f?style=for-the-badge)
 ![Version](https://img.shields.io/badge/version-1.2.0-E8722C?style=for-the-badge)
 
-> ⬇️ **[Download the latest version (Windows)](https://github.com/YOURUSERNAME/yt-studio/releases/latest/download/YT-Studio-Setup.exe)**
+> ⬇️ **[Download the latest version (Windows)](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.exe)**
 
 ---
 
@@ -35,7 +35,7 @@ Options: MP4 (video) or MP3 (audio-only), quality selector, subtitles, embed thu
 
 ## Install
 
-1. Click **[Download](https://github.com/YOURUSERNAME/yt-studio/releases/latest/download/YT-Studio-Setup.exe)**.
+1. Click **[Download](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.exe)**.
 2. Run the `.exe`.
 3. **Windows SmartScreen** may show *"Windows protected your PC"* because the app isn't code-signed. Click **More info → Run anyway**. This is expected for independent software.
 4. Some antivirus tools flag PyInstaller + yt-dlp apps as false positives. The build is clean — scan report: *(add VirusTotal link here)*. If blocked, allow-list the file.
