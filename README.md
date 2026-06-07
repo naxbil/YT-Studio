@@ -1,12 +1,19 @@
 # ▶ YT Studio
 
-**A desktop app to inspect YouTube channel analytics and download video, playlists, or entire channels — built with PySide6 + yt-dlp.**
+**A desktop app to inspect YouTube channel analytics and download video, playlists, or entire channels — for Windows and macOS. Built with PySide6 + yt-dlp.**
 
-[![Download](https://img.shields.io/badge/Download-Windows%20(.exe)-E8722C?style=for-the-badge)](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.exe)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-1f1f1f?style=for-the-badge)
+![Windows](https://img.shields.io/badge/Windows-10%2F11-1f1f1f?style=for-the-badge&logo=windows)
+![macOS](https://img.shields.io/badge/macOS-11%2B-1f1f1f?style=for-the-badge&logo=apple)
 ![Version](https://img.shields.io/badge/version-1.2.0-E8722C?style=for-the-badge)
 
-> ⬇️ **[Download the latest version (Windows)](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.exe)**
+### ⬇️ Download
+
+| Platform | Download |
+|---|---|
+| **Windows** (10/11, 64-bit) | **[YT_Studio.exe](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.exe)** (~320 MB) |
+| **macOS** (11 Big Sur or newer) | **[YT_Studio.dmg](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.dmg)** |
+
+🔗 **Product page:** [naxbil.com](https://naxbil.com) · *(set exact URL, e.g. https://naxbil.com/products/yt-studio)*
 
 ---
 
@@ -29,18 +36,28 @@ Options: MP4 (video) or MP3 (audio-only), quality selector, subtitles, embed thu
 
 | Channel Inspect | Download |
 |---|---|
-| ![Channel Inspect](docs/screenshots/channel-inspect.png) | ![Download](docs/screenshots/download.png) |
+| ![Channel Inspect](https://naxbil.com/assets/img/products/yt_studio/channel_inspect.png) | ![Download](https://naxbil.com/assets/img/products/yt_studio/content_download.png) |
 
 ---
 
 ## Install
 
-1. Click **[Download](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.exe)**.
-2. Run the `.exe`.
-3. **Windows SmartScreen** may show *"Windows protected your PC"* because the app isn't code-signed. Click **More info → Run anyway**. This is expected for independent software.
-4. Some antivirus tools flag PyInstaller + yt-dlp apps as false positives. The build is clean — scan report: *(add VirusTotal link here)*. If blocked, allow-list the file.
+### Windows
+1. Download **[YT_Studio.exe](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.exe)** and run it.
+2. **Windows SmartScreen** may show *"Windows protected your PC"* because the app isn't code-signed. Click **More info → Run anyway**. This is expected for independent software.
+3. If antivirus flags it, that's a known false positive for PyInstaller + yt-dlp apps — allow-list the file. Scan report: *(add VirusTotal link here)*.
 
-**Requirements:** Windows 10/11 (64-bit). ~300 MB. No Python install needed — everything is bundled.
+### macOS
+1. Download **[YT_Studio.dmg](https://github.com/naxbil/YT-Studio/releases/latest/download/YT_Studio.dmg)**, open it, and drag **YT Studio** into **Applications**.
+2. On first launch, macOS **Gatekeeper** may say *"YT Studio cannot be opened because the developer cannot be verified."* Fix it one of two ways:
+   - **Right-click** the app → **Open** → **Open** again, **or**
+   - **System Settings → Privacy & Security → Open Anyway**.
+3. If it still refuses, run this once in Terminal:
+   ```bash
+   xattr -cr /Applications/YT\ Studio.app
+   ```
+
+**Requirements:** Windows 10/11 (64-bit) or macOS 11+. No Python install needed — everything is bundled.
 
 ---
 
@@ -57,4 +74,4 @@ YT Studio is a personal-use utility built on [yt-dlp](https://github.com/yt-dlp/
 
 ---
 
-**Developer:** Devesh Shukla · [LinkedIn](https://www.linkedin.com/in/devesh-shukla-er)
+**Developer:** Devesh Shukla · [naxbil.com](https://naxbil.com) · [LinkedIn](https://www.linkedin.com/in/devesh-shukla-er)
